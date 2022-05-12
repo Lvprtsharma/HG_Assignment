@@ -73,7 +73,7 @@ public class HomePage extends selenium_utility {
 	@DataProvider
 	public Object[][] dataset1() {																					//Data Provider Method
 
-		return new Object[][] { { "Mumbai", "2 BHK", "3 BHK"}/* ,{"Bangalore"} */};
+		return new Object[][] { { "Mumbai", "2 BHK", "3 BHK"}/*,{"Bangalore"} */};
 	}
 
 	@Parameters({"city","BH1","BH2"})
