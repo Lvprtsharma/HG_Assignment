@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T15:02:22 IST" name="Suite" finished-at="2022-05-12T15:03:06 IST" duration-ms="43892">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T15:02:22 IST" name="Test" finished-at="2022-05-12T15:03:06 IST" duration-ms="43892">
+      <class name="PageRepo.HomePage">
+        <test-method is-config="true" signature="startup()[pri:0, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:02:20 IST" name="startup" finished-at="2022-05-12T15:02:22 IST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="navigation_To_Site()[pri:1, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:02:22 IST" name="navigation_To_Site" finished-at="2022-05-12T15:02:25 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation_To_Site -->
+        <test-method signature="url_Matching()[pri:2, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:02:25 IST" name="url_Matching" finished-at="2022-05-12T15:02:25 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url_Matching -->
+        <test-method signature="verify_Search(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:02:25 IST" name="verify_Search" finished-at="2022-05-12T15:02:46 IST" duration-ms="20763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 BHK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 BHK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Search -->
+        <test-method signature="verify_Search(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:02:46 IST" name="verify_Search" finished-at="2022-05-12T15:03:06 IST" duration-ms="20182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 BHK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 BHK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Search -->
+        <test-method signature="browser_Closure()[pri:4, instance:PageRepo.HomePage@37afeb11]" started-at="2022-05-12T15:03:06 IST" name="browser_Closure" finished-at="2022-05-12T15:03:06 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Closure -->
+      </class> <!-- PageRepo.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

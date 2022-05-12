@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="city" value="Mumbai"></parameter>
+  <parameter name="BH1" value="2 BHK"></parameter>
+  <parameter name="BH2" value="3 BHK"></parameter>
+    <classes>
+      <class name="PageRepo.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
